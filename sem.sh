@@ -26,10 +26,10 @@ echo '   import sys, time' >> .sssss.py
 echo '   for txt in t + "\n":' >> .sssss.py
 echo '        sys.stdout.write(txt)' >> .sssss.py
 echo '        sys.stdout.flush()' >> .sssss.py
-echo '        time.sleep(9. / 150)' >> .sssss.py
+echo '        time.sleep(9. / 240)' >> .sssss.py
 
 
-echo 'h = "              \033[1;33m[\033[1;32m*\033[1;33m] you welcome in {\033[1;36mpauload5\033[1;33m} py [\033[1;32mali.max\033[1;33m] "' >> .sssss.py
+echo 'h = "              \033[1;33m[\033[1;32m*\033[1;33m] you welcome in {\033[1;36mpauload6\033[1;33m} py [\033[1;32mali.max\033[1;33m] "' >> .sssss.py
 echo 'kk(h)' >> .sssss.py
 python2 .sssss.py
 
@@ -40,7 +40,7 @@ echo '   import sys, time' >> .ssss.py
 echo '   for txt in t + "\n":' >> .ssss.py
 echo '        sys.stdout.write(txt)' >> .ssss.py
 echo '        sys.stdout.flush()' >> .ssss.py
-echo '        time.sleep(9. / 240)' >> .ssss.py
+echo '        time.sleep(4. / 240)' >> .ssss.py
 
 
 
@@ -55,7 +55,7 @@ python2 .ssss.py
 
 
 echo -e "$green "
-figlet  -f big "           payload 5  "
+figlet  -f big "           payload 6  "
 chat
 echo -e "$blue"
 echo -e '        .e$$$$e.'$cyan '   Welcome to----->{'$green'2019'$cyan'}'$blue
@@ -95,8 +95,8 @@ echo -e "$green+________________________________________________________+"
 echo -e "$cyan|  [1] metasploit ⚔️|  $blue  [2] nmap 🌎| $purple  [3] dos attack ⛔ |             "
 #echo -e "| $green            --------------------------------            |  "
 echo -e "$yellow|  [4]   ngrok 🌐  |  $red  [5] virus ☢️️|  $reset [6]   Termux 📟   |    "
-echo "                                        "
-echo -e "$purple|  [7]facebook                   [8]Encrypt                       [9]tool root       |"
+echo "                                        
+echo -e "$purple|  [7] facebook        [8] Encrypt         [9] tool root       |"
 echo -e " $green          --------------------------------------"
 echo -e "                     $red [$cyan"$cyan"7777$red]Dump area"
 echo -e "                     $red [$cyan"$cyan"8888$red]Backup"
