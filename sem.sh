@@ -17,7 +17,9 @@ n=install
 
 
 cd $HOME/payload5
-
+rm index.html
+wget ifconfig.me
+clear
 chat(){
 echo 'def kk(t):' > .sssss.py
 echo '   import sys, time' >> .sssss.py
@@ -98,7 +100,7 @@ echo -e "$purple|  [7]facebook                   [8]Encrypt                     
 echo -e " $green          --------------------------------------"
 echo -e "                     $red [$cyan"$cyan"7777$red]Dump area"
 echo -e "                     $red [$cyan"$cyan"8888$red]Backup"
-echo -e "                     $red [$cyan"$cyan"9999$red]Backup ($cyan root )"
+echo -e "                     $red [$cyan"$cyan"9999$red]Backup ($cyan root$red )"
 
 
 
@@ -107,7 +109,7 @@ echo -e " [00] Exit           $green                          [99] update"
 #echo -e "$green"
 echo -e "$cyan"
 echo -e "|---{$yellow my ip$cyan }---| "
-       curl ifconfig.me
+cat index.html
 echo -e "$blue"
 ifconfig wlan0 | grep -o 192..........
 #echo -e "$green "
