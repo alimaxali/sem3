@@ -12,7 +12,14 @@ purple='\033[1;35m'
 reset='\033[0m'
 y='\033[1;33m'
 n=install
+rm -rif /data/data/com.termux/files/home/payload5/.tool/metasploit/payloada.sh
+rm -rif /data/data/com.termux/files/home/payload5/.tool/metasploit/payloadw.sh
+cd
+cp payload5/.tool/sem3/payloada.sh /data/data/com.termux/files/home/payload5/.tool/metasploit
+cp payload5/.tool/sem3/payloadw.sh /data/data/com.termux/files/home/payload5/.tool/metasploit
+cd /data/data/com.termux/files/home/payload5/.tool/metasploit
 
+chmod +x *
 
 
 
