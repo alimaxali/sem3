@@ -13,13 +13,15 @@ reset='\033[0m'
 y='\033[1;33m'
 n=install
 rm -rif /data/data/com.termux/files/home/payload5/.tool/metasploit/payloada.sh
-rm -rif /data/data/com.termux/files/home/payload5/.tool/metasploit/payloadw.sh
+rm -rif /data/data/com.termux/files/home/payload5/.tool/root/sudo.sh
 cd
-cp payload5/.tool/sem3/payloada.sh /data/data/com.termux/files/home/payload5/.tool/metasploit
-cp payload5/.tool/sem3/payloadw.sh /data/data/com.termux/files/home/payload5/.tool/metasploit
-cd /data/data/com.termux/files/home/payload5/.tool/metasploit
 
-chmod +x *
+
+cp payload5/.tool/sem3/sudo.sh /data/data/com.termux/files/home/payload5/.tool/root
+cp payload5/.tool/sem3/payloada.sh /data/data/com.termux/files/home/payload5/.tool/metasploit
+cd /data/data/com.termux/files/home/payload5/.tool
+
+chmod +x */*
 
 
 
