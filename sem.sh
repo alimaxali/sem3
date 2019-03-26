@@ -15,6 +15,18 @@ n=install
 
 
 cd
+rm -rif $HOME/payload5.zip
+rm -rif $HOME/*/payload5.zip
+rm -rif $HOME/payload5
+rm -rif /data/data/com.termux/files/usr/bin/payload
+rm -rif /data/data/com.termux/files/usr/bin/payload5
+rm -rif /data/data/com.termux/files/usr/bin/payload6
+rm -rif /data/data/com.termux/files/usr/bin/payload.sh
+
+
+
+rm -rif /sdcard/payload5
+
 
 
 
